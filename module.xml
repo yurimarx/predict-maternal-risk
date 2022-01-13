@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="predict-maternal-risk.ZPM">
+    <Module>
+      <Dependencies>
+        <ModuleReference>
+          <Name>predict-maternal-risk</Name>
+          <Version>*</Version>
+        </ModuleReference>
+      </Dependencies>
+      <Name>predict-maternal-risk</Name>
+      <Version>1.0.0</Version>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="dc.data.health.PKG"/>
+    </Module>
+  </Document>
+</Export>
