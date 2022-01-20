@@ -12,7 +12,7 @@ USER ${ISC_PACKAGE_MGRUSER}
 # copy files
 COPY  Installer.cls .
 COPY  automl.sql .
-COPY src src
+# COPY src src 
 COPY  module.xml .  
 COPY iris.script /tmp/iris.script
 
