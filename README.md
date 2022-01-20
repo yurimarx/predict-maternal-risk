@@ -45,7 +45,7 @@ FROM dc_data_health.MaternalHealthRisk WHERE ID > 801
 
 7. Inside the Management Portal (System > SQL) Execute the Creation of the Prediction model - predicting the maternal risk level:
 ```
-CREATE MODEL MaternalRiskModel PREDICTING (RiskLevel) FROM MaternalRiskTrain
+CREATE MODEL MaternalRiskModel PREDICTING (RiskLevel) FROM MaternalRiskValidate
 ```
 
 8. Inside the Management Portal (System > SQL) Execute the train of the model:
